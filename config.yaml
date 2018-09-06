@@ -1,0 +1,11 @@
+# Zip jobs
+archives:
+  aot:
+    # Path can be absolute or relative
+    input-dir: "path/to/input/files" # Directory containing files. 
+    alias: "zip-archive-name" # Output zip-file name
+    compression-level: 8 # The compression level for the archive
+
+# Server configuration
+server:
+  port: 3062
